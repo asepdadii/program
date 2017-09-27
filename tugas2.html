@@ -1,0 +1,24 @@
+uses crt;
+var
+i : integer;
+j : integer;
+begin
+clrscr;
+i:=1;
+j:=2;
+writeln('masukan nilai i: ', i);
+writeln('masukan nilai j: ', j);
+writeln('---------------------------');
+writeln('| operasi | hasil operasi |');
+writeln('---------------------------');
+writeln('| ',i,' + ',j,' | ',(i+j),' |');
+writeln('| ',i,' - ',j,' | ',(i-j),' |');
+writeln('| ',i,' * ',j,' | ',(i*j),' |');
+writeln('| ',i,' / ',j,' | ',(i/j),' |');
+writeln('| ',i,' div ',j,' | ',(i div j),' |');
+writeln('| ',i,' modd ',j,' | ',(i mod j),' |');
+writeln('---------------------------');
+
+readkey;
+
+end.
